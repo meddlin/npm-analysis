@@ -2,10 +2,6 @@ import subprocess
 import urllib.request
 import tarfile
 
-#
-# curl $(npm view nextjs dist.tarball) -o outfile.tgz
-# tar -xvzf outfile.tgz
-
 def main():
     print('Welcome to NPM package analysis')
     
