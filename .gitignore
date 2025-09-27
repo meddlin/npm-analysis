@@ -1,0 +1,44 @@
+*.tgz
+/extracted
+
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg
+*.egg-info/
+*.whl
+
+# Distribution / packaging
+.Python
+build/
+dist/
+venv/
+env/
+
+# Virtual environment
+.venv/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.bak
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage
+.tox/
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Miscellaneous
+*.log
+*.sqlite3
