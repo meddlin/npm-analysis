@@ -10,12 +10,10 @@ def main():
 
     # Get the URL to download the package
     url = subprocess.check_output(["npm", "view", package, "dist.tarball"], text=True).strip()
-    print(url)
     # Download it
     urllib.request.urlretrieve(url, out_filename)
 
     # Unzip it
-    # subprocess.Popen(f"tar -xvzf {out_filename}")
     with tarfile.open(out_filename, "r:gz") as tar:
         tar.extractall(path="extracted")
 
